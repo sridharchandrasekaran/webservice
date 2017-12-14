@@ -9,8 +9,10 @@ public class AnimalTypeService {
 			animalType = "Domestic";
 		} else {
 			animalType = "I don't know!";
+			System.out.println("success");
 		}
 		return animalType;
+		
 	}
 
 }
