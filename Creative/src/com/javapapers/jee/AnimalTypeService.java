@@ -10,6 +10,7 @@ public class AnimalTypeService {
 		} else {
 			animalType = "I don't know!";
 			System.out.println("success");
+			System.out.println("got");
 		}
 		return animalType;
 		
